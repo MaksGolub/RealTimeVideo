@@ -2,6 +2,20 @@
  * actual web camera.
  * Requires patching the #error block in original source
  * otherwise problems arise during build.
+ * Authors:
+ *   Maksym Holub (maks.golub.1991@gmail.com)
+ *   Oleh Kuzhylnyi (kuzhylny.oleg@gmail.com)
+ *   Oleksandr Ostrianko (sasha_ostrianko@mail.ru)
+ *   Tymofii Khodniev (t.khodniev@kpi.ua)
+ * This source is distibuted under BSD license and
+ * makes use of ARAVIS library
+ * (https://github.com/AravisProject/aravis)
+ * ARAVIS is distibuted under LGPL v2+ license, which
+ * means its license allows developers and companies 
+ * to use and integrate it into their own software 
+ * without being required by the terms of a strong 
+ * copyleft license to release the source code of their 
+ * own components.
  * Make sure to see the original LICENSE of ARAVIS
  */
 #include "arvbufferprivate.h"
